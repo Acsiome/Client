@@ -3,7 +3,8 @@
 #pragma comment (lib,"ws2_32.lib")
 
 int main(int arg, TCHAR* argv[])
-{   const uint32_t PORT = 666;
+{
+    const uint32_t PORT = 6666;
     const std::string IP = "127.0.0.1";
     unsigned long SERVERADDRES= inet_addr(IP.c_str());
 
